@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Shares
+{% endblock %}
+
+{% block main %}
+
+<table>
+    <thead>
+        <tr>
+            <th scope="col"> Company </th>
+            <th scope="col"> Shares Bought/Sold </th>
+            <th scope="col"> Price </th>
+            <th scope="col"> Time </th>
+       </tr>
+    </thead>
+    <tbody>
+        {% for each in Transactions %}
+        <tr>
+            <td>{{ each["symbol"] }}</td>
+            <td>{{ each["shares"] }}</td>
+            <td>{{ each["price"] }}</td>
+            <td>{{ each["timestamp"] }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+
+{% endblock %}
