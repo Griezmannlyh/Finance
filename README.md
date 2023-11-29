@@ -8,9 +8,9 @@
 
 # USAGE:
 
-<p> You'll only need to start Flask’s built-in web server using </p>
-<p> $ flask run </p>
-<p> and you're good to go!</p>
+<p>You'll only need to start Flask’s built-in web server using</p>
+<p>$ flask run</p>
+<p>and you're good to go!</p>
 
 # IMPLEMENTATIONS:
 
