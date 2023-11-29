@@ -15,18 +15,23 @@
 # IMPLEMENTATIONS:
 
 <p> 1. (most of) HTML templates through the use of Jinja templating engine </p>
-  
+
 <p> 2. Application.py, through the use of flask to create various functions and features of the webpage inclduing: </p>
-   - register
-   - buy
-   - index
-   - sell
-   - history
-  
+<ul>
+  <li> register </li>
+  <li> buy </li>
+  <li> index </li>
+  <li> sell </li>
+  <li> history</li>
+</ul>
+
 <p> 3. Transactions table, used to keep track of purchases and sale of stock, as well as display information on index </p>
 
 <p> 4. Additional features, through the use of Python and Javascript inclduing: </p>
-   - requiring users' password to be at least 12 characters long, alphanumeric and possess at least 1 symbol
-   - display a popup message delivering this information whenever users' mouse is over the input textbox
-   - allowing users to show and hide their password on command
+<ul>
+  <li> requiring users' password to be at least 12 characters long, alphanumeric and possess at least 1 symbol </li>
+  <li> display a popup message delivering this information whenever users' mouse is over the input textbox </li>
+  <li> allowing users to show and hide their password on command </li>
+</ul>
+   
 
